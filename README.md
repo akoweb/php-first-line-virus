@@ -1,10 +1,15 @@
 # php-first-line-virus
-php-first-line-virus
+php code in 5 min!
 
+### Features
 
-[php code] in 5 min!
+- remove all first line virus from all php files
+- add file into current folder and run!
 
-<?php
+# php code
+
+```php
+
 
 function getDirContents($dir, &$results = array()) {
     $files = scandir($dir);
@@ -41,3 +46,8 @@ function getDirContents($dir, &$results = array()) {
 }
 
 getDirContents('.');
+
+```
+
+ 
+ 
